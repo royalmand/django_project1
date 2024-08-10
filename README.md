@@ -28,14 +28,31 @@ To create a website using Django:
 
 
 ## Add User for ADMIN 🤝
-1. py manage.py createsuperuser 
-2. un royalmand royalmandd@gmail.com pw cek note internal laptop
+1. Create an superuser
+   ```bash
+   py manage.py createsuperuser
+   ```
+3. Create username
+   ```bash
+   username: royalmand
+   email: royalmandd@gmail.com
+   pw: cek note internal laptop
+   '''
 
 ## Add Records 📋
-1. We will use the Python interpreter (Python shell) to add some members to it. => py manage.py shell => cara exit : exit()
-2. from members.models import Member
-3. Member.objects.all() untuk liat empty table Membernya. A QuerySet is a collection of data from a database.
-4. isi tabelnya 
+1. We will use the Python interpreter (Python shell) to add some members to it.
+   ```bash
+   py manage.py shell cara exit : exit()
+   '''
+
+   Cara exit
+   ```bash
+   exit()
+   '''
+   
+3. from members.models import Member
+4. Member.objects.all() untuk liat empty table Membernya. A QuerySet is a collection of data from a database.
+5. isi tabelnya 
 >>> member = Member(firstname='Emil', lastname='Refsnes')
 >>> member.save()
 5. cek isi ditabel 
