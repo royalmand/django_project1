@@ -1,1 +1,6 @@
-this is the start
+// Problem // 
+okay im in http://127.0.0.1:8000/members/, and if i click member list button, it'' show error display. what i want is if i click member list button it will load into http://127.0.0.1:8000/members/ again. how to do that
+
+>>> The issue is with the link in your navbar. Currently, it's set to <a class="nav-link" href="members/">Member List</a>, which is a relative URL. When you're already on the /members/ page, clicking this link will try to take you to /members/members/, which doesn't exist, hence the error.
+
+To fix this, you can change the link to <a class="nav-link" href="{% url 'members' %}">Member List</a>.
