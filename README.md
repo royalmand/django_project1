@@ -1,6 +1,7 @@
 # Django Trial 1 - Tennis Club Website
 
 ## How to Use Django - VS Code Terminal🌟
+To create a website using Django:
 
 1. **mkdir django_project1**: Untuk buat repository baru
 2. **cd django_project1**: Untuk akses data di directory tertuju
@@ -17,4 +18,35 @@
 13. **py manage.py migrate**
 14. buat model dulu di models.py terus migrate => **py manage.py makemigrations members**
 15. **py manage.py migrate**
+
+
+## Alur website berjalan 📖
+1. views.py project where we define function of app
+2. urls.py app dimana kita jelasin kalo path kita /app maka akan didirect ke views.app atau jalanin function di views.py
+3. ini baru disetting di app, karena kita mengoperasikan app ini di dalam project maka setting jg di project
+4. Ketika kita reach alamat tertentu, kita akan melibatkan app.urls sebagai opsi / selanjutnya. example website.com/ setelah / itu app kita, missal ada app contact, profile dll. jadi ini dijadikan opsi oleh Django
+
+
+## Add User for ADMIN 🤝
+1. py manage.py createsuperuser 
+2. un royalmand royalmandd@gmail.com pw cek note internal laptop
+
+## Add Records 📋
+1. We will use the Python interpreter (Python shell) to add some members to it. => py manage.py shell => cara exit : exit()
+2. from members.models import Member
+3. Member.objects.all() untuk liat empty table Membernya. A QuerySet is a collection of data from a database.
+4. isi tabelnya 
+>>> member = Member(firstname='Emil', lastname='Refsnes')
+>>> member.save()
+5. cek isi ditabel 
+>>> Member.objects.all().values()
+6. add beberapa data member dan pake for loop untuk save setiap looping nya 
+
+7. cara add data lengkap 
+>>> from members.models import Member
+>>> x = Member.objects.all()[0]
+>>> x.phone = 5551234
+>>> x.joined_date = '2022-01-05'
+>>> x.save()
+>>> Member.objects.all().values()
 
