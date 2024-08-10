@@ -23,6 +23,10 @@ alur website berjalan
 example website.com/ setelah / itu app kita, missal ada app contact, profile dll 
 jadi ini dijadikan opsi oleh Django 
 
+// Add User for ADMIN // 
+1. py manage.py createsuperuser 
+2. un royalmand royalmandd@gmail.com AKUanakSEHAT889*
+
 
 // Add Records // 
 1. We will use the Python interpreter (Python shell) to add some members to it. => py manage.py shell => cara exit : exit()
