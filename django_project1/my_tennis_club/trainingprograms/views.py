@@ -15,5 +15,13 @@ def tpmbamas(request):
     template = loader.get_template('tpmbamas.html')
     return HttpResponse(template.render())
 
+def tptandingserius(request):
+    template = loader.get_template('tptandingserius.html')
+    return HttpResponse(template.render())
+
+def trainingschedules(request):
+    template = loader.get_template('trainingschedules.html')
+    return HttpResponse(template.render())
+
 
 

@@ -43,7 +43,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #ffffff;
     /* Change this color to match your design */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     /* Optional: adds shadow for better readability */
@@ -53,6 +53,7 @@ h1 {
     font-size: 2.5rem;
     /* Adjust size as needed */
     margin: 0;
+    color: white;
 }
 
 .centered-text p {
@@ -116,9 +117,138 @@ hr {
 
 .h1-begineer {
     margin: 20px;
+    color: #ffffff;
 }
 
 .add-padding {
     margin: 20px;
     font-size: 25px;
+    color: #ffffff;
+}
+
+/* Footer */
+.footer {
+    color: black;
+    background-color: #001973;
+    font-size: 14px;
+    position: relative;
+}
+
+.dark-background {
+    --background-color: #001973;
+    --default-color: #212529;
+    --heading-color: #001973;
+    --surface-color: #ffffff;
+    --contrast-color: #ffffff;
+}
+
+.footer .footer-top {
+    padding-top: 50px;
+    border-top: 1px solid color-mix(in srgb, #212529, transparent 90%);
+}
+
+.footer .footer-about .logo {
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+.footer .footer-about .logo img {
+    max-height: 40px;
+    margin-right: 6px;
+}
+
+.footer .footer-about .logo span {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.footer .footer-about p {
+    font-size: 14px;
+}
+
+.footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, #212529, transparent 50%);
+    font-size: 16px;
+    color: color-mix(in srgb, #212529, transparent 50%);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+    color: #212529;
+    border-color: #212529;
+}
+
+.footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer .footer-links {
+    margin-bottom: 30px;
+}
+
+.footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .footer-links ul i {
+    padding-right: 2px;
+    font-size: 12px;
+    line-height: 0;
+}
+
+.footer .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+.footer .footer-links ul a {
+    color: color-mix(in srgb, #212529, transparent 40%);
+    display: inline-block;
+    line-height: 1;
+}
+
+.footer .footer-links ul a:hover {
+    color: #212529;
+}
+
+.footer .footer-contact p {
+    margin-bottom: 5px;
+}
+
+.footer .copyright {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid color-mix(in srgb, #212529, transparent 90%);
+}
+
+.footer .copyright p {
+    margin-bottom: 0;
+}
+
+.footer .credits {
+    margin-top: 4px;
+    font-size: 13px;
+}
+
+.footer .credits a {
+    color: #212529;
 }

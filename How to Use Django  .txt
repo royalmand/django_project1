@@ -29,7 +29,10 @@ jadi ini dijadikan opsi oleh Django
 
 
 // Add Records // 
-1. We will use the Python interpreter (Python shell) to add some members to it. => py manage.py shell => cara exit : exit()
+1. We will use the Python interpreter (Python shell) to add some members to it. (untuk tambah data ke database)
+=> py manage.py shell => 
+cara exit: 
+exit()
 2. from members.models import Member
 3. Member.objects.all() untuk liat empty table Membernya. A QuerySet is a collection of data from a database.
 4. isi tabelnya 
