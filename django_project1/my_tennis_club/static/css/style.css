@@ -1,0 +1,124 @@
+h1 {
+    margin: 20px;
+}
+
+.h1-normal {
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.navbar {
+    height: 90px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand-icon {
+    width: 30px;
+    /* Adjust the size as needed */
+    height: auto;
+    margin-right: 8px;
+    /* Adds some space between the icon and the text */
+}
+
+
+/* Used in main html */
+.header-image-container {
+    position: relative;
+    text-align: center;
+}
+
+.header-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* Change this color to match your design */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Optional: adds shadow for better readability */
+}
+
+.centered-text h2 {
+    font-size: 2.5rem;
+    /* Adjust size as needed */
+    margin: 0;
+}
+
+.centered-text p {
+    font-size: 1.5rem;
+    /* Adjust size as needed */
+    margin: 0;
+}
+
+
+.header h1 {
+    font-size: 3rem;
+    /* Adjust font size */
+    margin: 0;
+    /* Remove default margin */
+}
+
+.sub-header {
+    font-size: 25px;
+}
+
+article {
+    margin-top: 20px;
+    padding-left: 180px;
+    padding-right: 180px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+hr {
+    border: 1px solid #000;
+    /* Change the color and thickness of the line */
+    width: 20%;
+    /* Adjust the width of the line */
+    margin: 20px auto;
+    /* Center the line and add some space around it */
+}
+
+
+/* Used in main html for begineer training */
+.image-container {
+    position: relative;
+    padding: 1.5rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.top-left {
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    transform: translate(20px, 50px);
+    color: white;
+    /* Change this color to match your design */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Optional: adds shadow for better readability */
+}
+
+.h1-begineer {
+    margin: 20px;
+}
+
+.add-padding {
+    margin: 20px;
+    font-size: 25px;
+}

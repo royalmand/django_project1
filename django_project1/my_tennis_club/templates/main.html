@@ -1,0 +1,87 @@
+{% extends 'master.html' %}
+{% load static %}
+{% block content %}
+
+<!-- Gambar below header dan tulisan in the middle -->
+<div class="header-image-container">
+    <img src="{% static 'images/tennis-banner-3.jpg' %}" alt="Tennis Club">
+    <div class="centered-text">
+        <h2>Loui Er Jac Tennis Club</h2>
+        <p>Play for Fun</p>
+    </div>
+</div>
+
+<!-- Penjelasan Tennis Club -->
+<article>Welcome to Lou Er Jac Tennis Club, where tennis enthusiasts of all levels come together to enjoy the game. With
+    state-of-the-art courts, expert coaching, and a calendar full of exciting
+    events, our club offers the perfect blend of competitive play and social camaraderie. Join us, and experience the
+    joy of tennis like never before!
+</article>
+
+<!-- Horizontal line -->
+<hr>
+
+<h1 class="h1-normal">Activities Program</h1>
+
+<!-- Activitiy Newbie Jangan Takut -->
+<div class="row g-0 text-dark position-relative">
+    <div class="col-md-6 mb-md-0 p-md-4">
+        <img src="{% static 'images/istockphoto-185241260-612x612.jpg' %}" class="w-100" alt="Tennis">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+        <h2 class="mt-0">Newbie Jangan Takut</h2>
+        <p>Kegiatan Newbie Jangan Takut untuk para pemula yang baru belajar dan juga untuk mereka yang telah mahir namun
+            ingin meningkatkan kemampuan. Kegiatan diisi dengan drill dan coaching dari pelatih diantaranya
+            bersertifikat ITF.
+        </p>
+        <a href="#" class="btn btn-danger stretched-link">Go somewhere</a>
+    </div>
+</div>
+
+<!-- Activitiy Mba-mba vs Mas-mas -->
+<div class="row g-0 text-dark position-relative">
+    <div class="col-md-6 order-md-2 mb-md-0 p-md-4">
+        <img src="{% static 'images/istockphoto-1464605292-612x612.jpg' %}" class="w-100" alt="Tennis Girl">
+    </div>
+    <div class="col-md-6 p-4 pe-md-0">
+        <h2 class="mt-0">Mba-mba vs Mas-mas</h2>
+        <p>Kegiatan Mba- mba vs Mas-mas untuk para pecinta Tennis yang telah memiliki kemampuan bermain Tennis. Full
+            time waktu digunakan untuk permainan (play).
+        </p>
+        <a href="#" class="btn btn-danger stretched-link">Go somewhere</a>
+    </div>
+</div>
+
+<!-- Activitiy Tanding Serius -->
+<div class="row g-0 text-dark position-relative">
+    <div class="col-md-6 mb-md-0 p-md-4">
+        <img src="{% static 'images/depositphotos_278898010-stock-photo-happy-fit-people-playing-tennis.jpg' %}"
+            class="w-100" alt="Tennis">
+    </div>
+    <div class="col-md-6 p-4 ps-md-0">
+        <h2 class="mt-0">Tanding Serius</h2>
+        <p>Kegiatan Tanding Serius untuk pemain lama yang ingin challenge dirinya sendiri dengan permainan yang sangat
+            amat serius.
+        </p>
+        <a href="#" class="btn btn-danger stretched-link">Go somewhere</a>
+    </div>
+</div>
+
+<!-- Horizontal line -->
+<hr>
+
+<div class="image-container">
+    <img src="{% static 'images/MicrosoftTeams-image-117-700x450.jpg' %}" alt="Children Tennis">
+    <div class="top-left">
+        <h1 class="h1-begineer">Dibuka, Pelatihan</h1>
+        <h1 class="h1-begineer">Tennis untuk pemula!</h1>
+        <p class="add-padding">Pancoran Tennis Club membuka Kelas Pelatihan untuk pemula.</p>
+        <p class="add-padding">Slot sangat terbatas!</p>
+
+    </div>
+</div>
+
+
+<p>Check out all out <a href="members/">members</a></p>
+
+{% endblock %}
