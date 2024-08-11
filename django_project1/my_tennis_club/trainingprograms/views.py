@@ -6,3 +6,14 @@ from django.template import loader
 def trainingprograms(request):
     template = loader.get_template('trainingprograms.html')
     return HttpResponse(template.render())
+
+def tpnewbiejangantakut(request):
+    template = loader.get_template('tpnewbiejangantakut.html')
+    return HttpResponse(template.render())
+
+def tpmbamas(request):
+    template = loader.get_template('tpmbamas.html')
+    return HttpResponse(template.render())
+
+
+
